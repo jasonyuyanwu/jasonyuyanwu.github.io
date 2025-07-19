@@ -26,13 +26,8 @@ author:
   name             : "Jason Wu"
   pronouns         : # example: "she/her"  
   bio              : # "Assistant Professor, Political Science Department"
-  location         : "Indiana University 
-Department of Political Science
-1100 E. 7th Street
-210 Woodburn Hall
-Bloomington, IN 47405
-"
- # employer         : "Indiana University, Bloomington"
+  location         : "Bloomington, IN"
+  employer         : "Indiana University"
   uri              : jasonyuyanwu.github.io
   email            : "jywu@iu.edu" 
 

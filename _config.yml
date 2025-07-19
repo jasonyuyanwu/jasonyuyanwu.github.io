@@ -23,13 +23,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Jason Wu"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  location         : "Bloomington, IN"
+  employer         : "Indiana University"
+  uri              : jasonyuyanwu.github.io
+  email            : "jywu@iu.edu" 
 
   # Academic websites
   academia         : # URL

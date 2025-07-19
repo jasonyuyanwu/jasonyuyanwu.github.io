@@ -36,10 +36,10 @@ author:
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=i7dKbAgAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : # 
+  orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : #
+  pubmed           : # URL
+  researchgate     : # URL
   scopus           : # URL
 
   # Repositories and software development

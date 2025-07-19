@@ -24,11 +24,11 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Jason Wu"
-  pronouns         : # example: "she/her"  
+  pronouns         : # example: "he/him"  
   bio              : # "Assistant Professor, Political Science Department"
   location         : "Bloomington, IN"
   employer         : "Indiana University"
-  uri              : jasonyuyanwu.github.io
+  uri              : # jasonyuyanwu.github.io
   email            : "jywu@iu.edu" 
 
   # Academic websites

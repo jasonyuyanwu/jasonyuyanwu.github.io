@@ -9,6 +9,6 @@ venue: 'Public Opinion Quarterly'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://doi.org/10.1093/poq/nfae048'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Desposato, Scott, Cal Zurich, and Jason Y. Wu. 2021. &quot;Nationalist Erosion After Protest and Repression.&quot; <i>Public Opinion Quarterly</i>. 88 (3): 886-908.'
+citation: 'Desposato, Scott, Cal Zurich, and Jason Y. Wu. 2024. &quot;Nationalist Erosion After Protest and Repression.&quot; <i>Public Opinion Quarterly</i>. 88 (3): 886-908.'
 ---
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.

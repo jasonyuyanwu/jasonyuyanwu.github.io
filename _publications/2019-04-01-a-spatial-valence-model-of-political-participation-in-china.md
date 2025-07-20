@@ -1,7 +1,7 @@
 ---
 title: "A Spatial Valence Model of Political Participation in China"
 collection: publications
-category: manuscripts
+category: ideology
 permalink: /publication/a-spatial-valence-model-of-political-participation-in-china-2019
 excerpt: 'In spatial models of political competition in democracies, citizens vote for the party or candidate that is the closest to their own ideological position, while in valence models, voters decide on the basis of non-policy factors, such as competence. What remains unclear, however, is whether citizens in authoritarian regimes use spatial or valence considerations to guide their decisions to participate in politics. This study uses data from the 2015 Chinese Urban Governance Survey to measure the ideology of Chinese citizens, and estimates an empirical stochastic model to explore how Chinese citizens use ideological distance and valence to determine how they want to participate in politics. The results show that valence issues, such as perceived government competence, play a larger role in political participation than ideology.'
 date: 2019-04-01

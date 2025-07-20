@@ -81,10 +81,10 @@ author:
 publication_category:
   books:
     title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  ideology:
+    title: 'Ideology in China'    
+  legacies:
+    title: 'Historical Legacies of Mobilization and Repression'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

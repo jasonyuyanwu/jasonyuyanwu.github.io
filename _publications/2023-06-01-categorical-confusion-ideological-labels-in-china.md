@@ -1,7 +1,7 @@
 ---
 title: "Categorical Confusion: Ideological Labels in China"
 collection: publications
-category: manuscripts
+category: ideology
 permalink: /publication/categorical-confusion-ideological-labels-in-china-2023
 excerpt: 'The idea of a left-right ideological dimension helps citizens and parties organize their thinking about politics. While the left-right dimension is traditionally organized around questions of inequality and change in democracies, its meaning under authoritarian rule remains opaque. This paper uses three national surveys to investigate the policy, partisan, and symbolic content of the left-right dimension in China. The analysis of these surveys reveals that while many Chinese citizens are willing to locate themselves on the left-right scale, the labels of left and right do not carry a consistent programmatic meaning. I also show that the partisan and symbolic content of these ideological labels is limited. I argue that the absence of a shared ideological understanding prevents Chinese citizens from exercising political agency.'
 date: 2023-06-01

@@ -1,7 +1,7 @@
 ---
 title: "Comparative Politics: Approaches and Issues"
 collection: teaching
-type: "Grad"
+type: "POLS-Y 557"
 permalink: /teaching/CP-Approaches-Issues
 venue: "Indiana University"
 date: 2024-01-01

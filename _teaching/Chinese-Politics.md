@@ -1,7 +1,7 @@
 ---
 title: "Chinese Politics"
 collection: teaching
-type: "Undergrad"
+type: "POLS-Y333"
 permalink: /teaching/Chinese-Politics
 venue: "Indiana University"
 date: 2024-01-01

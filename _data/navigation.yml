@@ -16,7 +16,7 @@ main:
     url: /teaching/
 
   - title: "CV"
-    url: /files/Jason-Wu-CV.pdf   # ← make sure the file exists at this path
+    url: /files/Jason-Wu-CV.pdf   # opens pdf in external tab
     external: true
 
  # - title: "Talks"

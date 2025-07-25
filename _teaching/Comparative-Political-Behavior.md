@@ -6,6 +6,7 @@ permalink: /teaching/Comparative-Political-Behavior
 venue: "Indiana University"
 date: 2022-01-01
 location: "Bloomington, IN"
+order: 657
 ---
 
 [Fall 2022 Syllabus](http://jasonyuyanwu.github.io/files/Comparative-Political-Behavior-Syllabus-2022.pdf)

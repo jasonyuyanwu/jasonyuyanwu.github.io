@@ -6,6 +6,7 @@ permalink: /teaching/Political-Behavior-Around-the-World
 venue: "Indiana University"
 date: 2025-01-01
 location: "Bloomington, IN"
+order: 490
 ---
 
 [Spring 2025 Syllabus](http://jasonyuyanwu.github.io/files/Political-Behavior-Around-the-World-Syllabus-2025.pdf)

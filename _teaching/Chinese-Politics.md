@@ -6,6 +6,7 @@ permalink: /teaching/Chinese-Politics
 venue: "Indiana University"
 date: 2024-01-01
 location: "Bloomington, IN"
+order: 333
 ---
 
 [Fall 2024 Syllabus](http://jasonyuyanwu.github.io/files/Chinese-Politics-Syllabus-2024.pdf)

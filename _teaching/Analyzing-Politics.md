@@ -6,6 +6,7 @@ permalink: /teaching/Analyzing-Politics
 venue: "Indiana University"
 date: 2023-01-01
 location: "Bloomington, IN"
+order: 205
 ---
 
 [Spring 2023 Syllabus](http://jasonyuyanwu.github.io/files/Analyzing-Politics-Syllabus-2023.pdf)

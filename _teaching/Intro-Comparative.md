@@ -6,6 +6,7 @@ permalink: /teaching/Intro-Comparative
 venue: "Indiana University"
 date: 2025-01-01
 location: "Bloomington, IN"
+order: 107
 ---
 
 [Spring 2025 Syllabus](http://jasonyuyanwu.github.io/files/Intro-Comparative-Syllabus-2025.pdf)

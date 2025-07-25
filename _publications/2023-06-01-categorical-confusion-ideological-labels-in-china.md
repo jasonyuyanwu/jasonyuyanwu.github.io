@@ -8,6 +8,7 @@ date: 2023-06-01
 venue: 'Political Research Quarterly'
 # slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
 paperurl: 'http://jasonyuyanwu.github.io/files/categorical-confusion-ideological-labels-in-china.pdf'
+replicationurl: 'https://doi.org/10.7910/DVN/EEUNNP'
 citation: 'Wu, Jason Y. 2023. &quot;Categorical Confusion: Ideological Labels in China.&quot; <i>Political Research Quarterly</i>. 76 (2): 524-539.'
 ---
 

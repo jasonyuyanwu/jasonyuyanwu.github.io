@@ -8,6 +8,7 @@ date: 2019-04-01
 venue: 'Journal of Theoretical Politics'
 # slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
 paperurl: 'http://jasonyuyanwu.github.io/files/a-spatial-valence-model-of-participation-in-china.pdf'
+# replicationurl: 
 citation: 'Wu, Jason Y. 2019. &quot;A Spatial Valence Model of Political Participation in China.&quot; <i>Journal of Theoretical Politics</i>. 31 (2): 244-259.'
 ---
 

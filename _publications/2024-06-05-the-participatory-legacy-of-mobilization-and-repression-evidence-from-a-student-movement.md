@@ -8,7 +8,7 @@ date: 2024-11-15
 venue: 'Social Movement Studies'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 paperurl: 'https://doi.org/10.1080/14742837.2024.2350589'
-# bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
+# replicationurl: 'http://academicpages.github.io/files/bibtex1.bib'
 citation: 'Desposato, Scott W., Cal Zurich, and Jason Y. Wu. 2024. &quot;The Participatory Legacy of Mobilization and Repression: Evidence from a Student Movement.&quot; <i>Social Movement Studies</i>.'
 ---
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.

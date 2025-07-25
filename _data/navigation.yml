@@ -8,5 +8,5 @@ main:
 
   - title: "CV"                 # PDF opens in a new tab
     url: /files/Jason-Wu-CV.pdf
-    target: _blank              # ← this is the magic line
+    target: "_blank"              # ← this is the magic line
     external: true              # (optional) keeps the ↗ icon

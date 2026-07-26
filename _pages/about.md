@@ -9,4 +9,4 @@ redirect_from:
 
 I am an Assistant Professor of Political Science at Indiana University, Bloomington. My research is focused on understanding the belief systems of Chinese citizens, the ways in which ideology shapes political choices under authoritarian rule, and the historical legacies of repression and social movements.
 
-My book *The Pliant Public: Ideology and Public Opinion in China* is forthcoming from the University of Michigan Press. You can hear more about my research on the [Pekingology Podcast with Jude Blanchette](https://www.csis.org/node/60799), and the [Sinica Podcast with Kaiser Kuo](https://art19.com/shows/sinica/episodes/23915b23-f39e-45f3-964f-b62db6e2a940).
+My book [*The Pliant Public: Ideology and Public Opinion in China*](https://press.umich.edu/Books/T/The-Pliant-Public3) is forthcoming from the University of Michigan Press. You can hear more about my research on the [Pekingology Podcast with Jude Blanchette](https://www.csis.org/node/60799), and the [Sinica Podcast with Kaiser Kuo](https://art19.com/shows/sinica/episodes/23915b23-f39e-45f3-964f-b62db6e2a940).

@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Jason Wu"
 title_separator          : "-"
 name                     : &name "Jason Wu"
-description              : &description "personal description"
+description              : &description "Jason Wu is an assistant professor of political science at Indiana University who studies ideology, public opinion, and political behavior in China."
 url                      : https://jasonyuyanwu.com # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "jasonyuyanwu.github.io"
@@ -133,19 +133,21 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "jasonywu"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "small-profile.jpg" # Social media default site image
+og_description           : *description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : "Person"
+  name                   : "Jason Wu"
+  links:
+    - "https://scholar.google.com/citations?user=i7dKbAgAAAAJ&hl=en"
+    - "https://x.com/jasonywu"
 
 
 # Analytics

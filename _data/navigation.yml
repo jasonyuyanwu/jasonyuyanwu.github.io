@@ -1,7 +1,10 @@
 # _data/navigation.yml  ← final, working version
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "The Pliant Public"
+    url: /the-pliant-public/
+
+  - title: "Articles"
+    url: /articles/
 
   - title: "Teaching"
     url: /teaching/

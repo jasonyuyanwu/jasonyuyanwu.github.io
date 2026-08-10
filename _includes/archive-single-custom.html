@@ -27,18 +27,26 @@
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
-      {% if post.link %}
+      {% if post.category == 'book' and post.publisherurl %}
+        <a href="{{ post.publisherurl }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% elsif post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
         <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
       {% endif %}
     </h2>
+
+    {% if post.category == 'book' and post.subtitle %}
+      <p class="archive__item-subtitle">{{ post.subtitle }}</p>
+    {% endif %}
     
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-        {% if post.collection == 'teaching' %}
+        {% if post.collection == 'publications' and post.category == 'book' %}
+          <p class="book-archive__meta">Forthcoming from <i>{{ post.venue }}</i>, {{ post.date | date: "%B %Y" }}</p>
+        {% elsif post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
@@ -52,7 +60,10 @@
     <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
     {% endif %}
     
-    {% if post.citation and post.paperurl and post.slidesurl and post.replicationurl %}
+    {% if post.category == 'book' %}
+      <p class="book-archive__links"><a href="{{ base_path }}{{ post.url }}">About the Book</a></p>
+      {% if post.citation %}<p class="book-archive__citation">Recommended citation: {{ post.citation }}</p>{% endif %}
+    {% elsif post.citation and post.paperurl and post.slidesurl and post.replicationurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Link to Paper</a> | <a href="{{ post.slidesurl }}">Link to Slides</a> | <a href="{{ post.replicationurl }}">Link to Replication Files</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
       <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Link to Paper</a> | <a href="{{ post.slidesurl }}">Link to Slides</a></p>

@@ -28,7 +28,7 @@ excerpt: >-
 
 <p class="book-page__status">
   <strong>Forthcoming June 2027</strong>
-  <span class="book-page__imprint">University of Michigan Press<span aria-hidden="true"> &middot; </span>China Understandings Today</span>
+  <span class="book-page__imprint">University of Michigan Press<span aria-hidden="true"> &middot; </span><span class="book-page__series">China Understandings Today</span></span>
 </p>
 
 <div class="book-page__overview">

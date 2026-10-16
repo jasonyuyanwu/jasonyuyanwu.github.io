@@ -33,9 +33,7 @@ excerpt: >-
     </figure>
 
     <header class="book-page__heading">
-      <h1 class="book-page__title" itemprop="headline">{{ page.title }}</h1>
-      <p class="book-page__subtitle">{{ page.subtitle }}</p>
-      <p class="book-page__publication">{{ page.venue }}, forthcoming June 2027<br><em>{{ page.series }}</em></p>
+      <h1 class="book-page__title" itemprop="headline"><em>{{ page.title }}: {{ page.subtitle }}</em> ({{ page.venue }}, {{ page.series }}, June 2027)</h1>
     </header>
 
     <div class="book-page__description">
@@ -47,6 +45,6 @@ excerpt: >-
 
     </div>
 
-    <p class="book-page__availability">For purchase options, see the <a href="{{ page.doiurl }}">publisher’s website</a>, <a href="{{ page.amazonurl }}">Amazon</a>, or other booksellers.</p>
+    <p class="book-page__availability">The book is available from the <a href="{{ page.doiurl }}">publisher's website</a>, <a href="{{ page.amazonurl }}">Amazon</a>, or other booksellers.</p>
   </div>
 </div>

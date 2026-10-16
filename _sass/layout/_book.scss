@@ -25,24 +25,9 @@
 }
 
 .book-page__title {
-  margin: 0 0 0.25em;
-  font-size: $type-size-3;
-  font-style: italic;
-  line-height: 1.2;
-}
-
-.book-page .book-page__subtitle {
-  margin: 0 0 0.5em;
-  color: var(--global-text-color);
-  font-size: 1.05em;
-  line-height: 1.4;
-}
-
-.book-page .book-page__publication {
   margin: 0;
-  color: var(--global-text-color);
-  font-size: 0.9em;
-  line-height: 1.5;
+  font-size: $type-size-4;
+  line-height: 1.3;
 }
 
 .book-page__cover {
@@ -103,16 +88,12 @@
     margin: 0 1.25rem 1rem 0;
   }
 
-  .book-page .book-page__publication {
+  .book-page__heading {
     margin-bottom: 1.25rem;
   }
 
-  .book-page__description > p:first-child {
+  .book-page__description > p {
     display: flow-root;
-  }
-
-  .book-page__description > p + p {
-    clear: left;
   }
 
   .book-page .book-page__availability {

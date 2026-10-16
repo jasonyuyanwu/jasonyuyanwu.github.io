@@ -33,7 +33,8 @@ excerpt: >-
     </figure>
 
     <header class="book-page__heading">
-      <h1 class="book-page__title" itemprop="headline"><em>{{ page.title }}: {{ page.subtitle }}</em> ({{ page.venue }}, {{ page.series }}, June 2027)</h1>
+      <h1 class="book-page__title" itemprop="headline"><em>{{ page.title }}: {{ page.subtitle }}</em></h1>
+      <p class="book-page__publication">({{ page.venue }}, {{ page.series }}, June 2027)</p>
     </header>
 
     <div class="book-page__description">

@@ -10,7 +10,7 @@ date: 2027-06-01
 status: forthcoming
 venue: "University of Michigan Press"
 series: "China Understandings Today"
-publisherurl: "https://press.umich.edu/Books/T/The-Pliant-Public3"
+publisherurl: "https://doi.org/10.3998/mpub.14794866"
 doiurl: "https://doi.org/10.3998/mpub.14794866"
 # Restore the recommended citation when the book is published in June 2027.
 # citation: 'Wu, Jason Y. 2027. <i>The Pliant Public: Ideology and Public Opinion in China</i>. Ann Arbor: University of Michigan Press.'

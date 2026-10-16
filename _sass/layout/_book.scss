@@ -16,7 +16,7 @@
 /* Stack within narrow article columns, regardless of the browser width. */
 .book-page__layout {
   display: grid;
-  grid-template-areas: "heading" "cover" "description" "availability";
+  grid-template-areas: "heading" "cover" "opening" "description" "availability";
   gap: 1.25rem;
 }
 
@@ -26,14 +26,19 @@
 
 .book-page__title {
   margin: 0;
-  font-size: $type-size-4;
-  line-height: 1.3;
+  font-size: 1.5em;
+  line-height: 1.25;
 }
 
 .book-page .book-page__publication {
   margin: 0.35rem 0 0;
-  font-size: 1.125em;
+  font-size: 1.25em;
   line-height: 1.4;
+}
+
+.book-page__date {
+  display: block;
+  margin-top: 0.2em;
 }
 
 .book-page__cover {
@@ -63,6 +68,15 @@
   }
 }
 
+.book-page__opening {
+  grid-area: opening;
+
+  p {
+    margin: 0;
+    line-height: 1.65;
+  }
+}
+
 .book-page__description {
   grid-area: description;
 
@@ -82,28 +96,42 @@
   line-height: 1.65;
 }
 
-/* Like the reference layout, text wraps around the cover and then resumes
-   the full article width. Only float when the article itself is wide enough. */
+/* Pair the cover and publication details in narrower desktop columns. */
 @container book-page (min-width: 640px) {
   .book-page__layout {
-    display: flow-root;
+    grid-template-columns: 200px minmax(0, 1fr);
+    grid-template-areas:
+      "cover heading"
+      "opening opening"
+      "description description"
+      "availability availability";
+    column-gap: 1.5rem;
+    row-gap: 1.1rem;
+    align-items: start;
   }
 
   .book-page__cover {
-    float: left;
-    margin: 0 1.25rem 1rem 0;
+    margin: 0;
   }
 
   .book-page__heading {
-    margin-bottom: 1.25rem;
+    align-self: center;
+  }
+}
+
+/* With more room, place the opening paragraph beside the cover, too. */
+@container book-page (min-width: 800px) {
+  .book-page__layout {
+    grid-template-rows: auto 1fr auto auto;
+    grid-template-areas:
+      "cover heading"
+      "cover opening"
+      "description description"
+      "availability availability";
   }
 
-  .book-page__description > p {
-    display: flow-root;
-  }
-
-  .book-page .book-page__availability {
-    margin-top: 1.3em;
+  .book-page__heading {
+    align-self: start;
   }
 }
 

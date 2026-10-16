@@ -34,18 +34,20 @@ excerpt: >-
 
     <header class="book-page__heading">
       <h1 class="book-page__title" itemprop="headline"><em>{{ page.title }}: {{ page.subtitle }}</em></h1>
-      <p class="book-page__publication">({{ page.venue }}, {{ page.series }}, June 2027)</p>
+      <p class="book-page__publication">{{ page.venue }}, {{ page.series }}
+        <span class="book-page__date">June 2027</span></p>
     </header>
 
-    <div class="book-page__description">
+    <div class="book-page__opening">
       <p>The Chinese Communist Party has long depended on ideology to set the agenda, communicate its priorities, and legitimize its rule. But ideology is in short supply for Chinese citizens. Public opinion is depolarized. Ordinary people have little sense of what left and right mean, and most of the people who put themselves on the right have the scale backwards.</p>
+    </div>
 
+    <div class="book-page__description">
       <p>Ideological commitments are largely detached from social cleavages. Since a depolarized public is ill-equipped to check the state, China's leaders can make massive changes to government policy without triggering a broad backlash.</p>
 
       <p>But depolarization cuts both ways. When citizens lack clear ideological commitments, it is easier for them to set aside their differences. If China's leaders lost their performance legitimacy, depolarization could facilitate a broader challenge to party rule.</p>
-
     </div>
 
-    <p class="book-page__availability">The book is available from the <a href="{{ page.doiurl }}">publisher's website</a>, <a href="{{ page.amazonurl }}">Amazon</a>, or other booksellers.</p>
+    <p class="book-page__availability">Preorders are available through the <a href="{{ page.doiurl }}">publisher's website</a>, <a href="{{ page.amazonurl }}">Amazon</a>, and other booksellers.</p>
   </div>
 </div>

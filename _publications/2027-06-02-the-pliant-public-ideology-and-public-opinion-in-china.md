@@ -2,6 +2,7 @@
 title: "The Pliant Public"
 subtitle: "Ideology and Public Opinion in China"
 description: "The Pliant Public explains how weak ideological commitments shape public opinion, political behavior, and state power in contemporary China."
+og_image: "the-pliant-public-cover.jpg"
 collection: publications
 category: book
 permalink: /the-pliant-public/
@@ -30,10 +31,20 @@ excerpt: >-
   <span class="book-page__imprint">University of Michigan Press<span aria-hidden="true"> &middot; </span>China Understandings Today</span>
 </p>
 
-The Chinese Communist Party has long depended on ideology to set the agenda, communicate its priorities, and legitimize its rule. But ideology is in short supply for Chinese citizens. Public opinion is depolarized. Ordinary people have little sense of what left and right mean, and most of the people who put themselves on the right have the scale backwards.
+<div class="book-page__overview">
+  <figure class="book-page__cover">
+    <a href="{{ page.publisherurl }}" aria-label="View The Pliant Public at University of Michigan Press">
+      <img src="/images/the-pliant-public-cover.jpg" alt="Cover of The Pliant Public: Ideology and Public Opinion in China by Jason Y. Wu" width="1200" height="1800" fetchpriority="high">
+    </a>
+  </figure>
 
-Ideological commitments are largely detached from social cleavages. Since a depolarized public is ill-equipped to check the state, China's leaders can make massive changes to government policy without triggering a broad backlash.
+  <div class="book-page__description">
+    <p>The Chinese Communist Party has long depended on ideology to set the agenda, communicate its priorities, and legitimize its rule. But ideology is in short supply for Chinese citizens. Public opinion is depolarized. Ordinary people have little sense of what left and right mean, and most of the people who put themselves on the right have the scale backwards.</p>
 
-But depolarization cuts both ways. When citizens lack clear ideological commitments, it is easier for them to set aside their differences. If China's leaders lost their performance legitimacy, depolarization could facilitate a broader challenge to party rule.
+    <p>Ideological commitments are largely detached from social cleavages. Since a depolarized public is ill-equipped to check the state, China's leaders can make massive changes to government policy without triggering a broad backlash.</p>
+
+    <p>But depolarization cuts both ways. When citizens lack clear ideological commitments, it is easier for them to set aside their differences. If China's leaders lost their performance legitimacy, depolarization could facilitate a broader challenge to party rule.</p>
+  </div>
+</div>
 
 </div>

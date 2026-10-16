@@ -26,16 +26,15 @@ excerpt: >-
 
 <p class="book-page__subtitle">Ideology and Public Opinion in China</p>
 
-<p class="book-page__status">
-  <strong>Forthcoming June 2027</strong>
-  <span class="book-page__imprint">University of Michigan Press<span aria-hidden="true"> &middot; </span><span class="book-page__series">China Understandings Today</span></span>
-</p>
-
 <div class="book-page__overview">
   <figure class="book-page__cover">
     <a href="{{ page.publisherurl }}" aria-label="View The Pliant Public at University of Michigan Press">
       <img src="/images/the-pliant-public-cover.jpg" alt="Cover of The Pliant Public: Ideology and Public Opinion in China by Jason Y. Wu" width="1200" height="1800" fetchpriority="high">
     </a>
+    <figcaption class="book-page__status">
+      <strong>Forthcoming June 2027</strong>
+      <span class="book-page__imprint">University of Michigan Press<span aria-hidden="true"> &middot; </span><span class="book-page__series">China Understandings Today</span></span>
+    </figcaption>
   </figure>
 
   <div class="book-page__description">

@@ -3,19 +3,20 @@
    ========================================================================== */
 
 .book-page__subtitle {
-  margin: -0.35em 0 0.35em;
+  margin: -0.15em 0 0.35em;
   color: var(--global-text-color-light);
   font-family: $sans-serif;
-  font-size: $type-size-3 !important;
-  line-height: 1.25;
+  font-size: $type-size-4 !important;
+  line-height: 1.35;
 }
 
 .book-page__status {
-  margin-bottom: 0 !important;
+  margin: 1rem 0 0 !important;
   color: var(--global-text-color-light);
   font-family: $sans-serif;
   font-size: 0.875em !important;
   line-height: 1.5;
+  text-align: center;
 
   strong {
     display: block;
@@ -34,16 +35,7 @@
 }
 
 .book-page__overview {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  gap: 1.5rem;
-  align-items: start;
   margin-top: 1.75rem;
-
-  @include breakpoint($medium) {
-    grid-template-columns: minmax(220px, 17rem) minmax(0, 1fr);
-    gap: 2rem;
-  }
 }
 
 .book-page__cover {
@@ -51,9 +43,8 @@
   max-width: 15rem;
   margin: 0 auto;
 
-  @include breakpoint($medium) {
-    max-width: 17rem;
-    margin: 0;
+  @include breakpoint($small) {
+    max-width: 18rem;
   }
 
   a {
@@ -76,6 +67,7 @@
 
 .book-page__description {
   max-width: 42em;
+  margin: 2.25rem auto 0;
 
   p {
     line-height: 1.65;

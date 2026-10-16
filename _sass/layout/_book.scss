@@ -2,60 +2,55 @@
    BOOK PAGE
    ========================================================================== */
 
-.page--book .page__title {
-  margin: 0 0 0.4rem;
-  font-size: 2rem;
-  line-height: 1.15;
-  text-align: center;
-}
-
-.page__content .book-page__subtitle {
-  margin: 0;
-  color: var(--global-text-color-light);
-  font-family: $sans-serif;
-  font-size: 1.05rem !important;
-  line-height: 1.4;
-  text-align: center;
-}
-
-.book-page__status {
-  width: 100%;
-  margin: 0.75rem 0 0 !important;
-  color: var(--global-text-color-light);
-  font-family: $sans-serif;
-  font-size: 0.875em !important;
-  line-height: 1.5;
-  text-align: center;
-
-  strong {
-    display: block;
-    color: var(--global-text-color);
-    font-weight: 600;
+/* Use the available article space while keeping the profile sidebar. */
+.page--book {
+  @include breakpoint($large) {
+    padding-right: 0;
   }
 }
 
-.book-page__imprint {
-  display: block;
-  margin-top: 0.15em;
+.book-page {
+  container: book-page / inline-size;
 }
 
-.book-page__series {
-  display: block;
+/* Stack within narrow article columns, regardless of the browser width. */
+.book-page__layout {
+  display: grid;
+  grid-template-areas: "heading" "cover" "description" "availability";
+  gap: 1.25rem;
 }
 
-.book-page__overview {
-  margin-top: 1.5rem;
+.book-page__heading {
+  grid-area: heading;
+}
+
+.book-page__title {
+  margin: 0 0 0.25em;
+  font-size: $type-size-3;
+  font-style: italic;
+  line-height: 1.2;
+}
+
+.book-page .book-page__subtitle {
+  margin: 0 0 0.5em;
+  color: var(--global-text-color);
+  font-size: 1.05em;
+  line-height: 1.4;
+}
+
+.book-page .book-page__publication {
+  margin: 0;
+  color: var(--global-text-color);
+  font-size: 0.9em;
+  line-height: 1.5;
 }
 
 .book-page__cover {
+  grid-area: cover;
   display: block;
-  width: 100%;
-  max-width: 12rem;
+  width: 200px;
+  max-width: 100%;
   margin: 0 auto;
-
-  @include breakpoint($small) {
-    max-width: 14rem;
-  }
 
   a {
     display: block;
@@ -66,20 +61,19 @@
     display: block;
     width: 100%;
     height: auto;
-    margin-bottom: 0;
+    margin: 0;
     border: 1px solid var(--global-border-color);
-    box-shadow: 0 8px 22px rgba(#000, 0.14);
+    border-radius: 0;
   }
 
-  a:focus-visible img {
-    outline: 3px solid var(--global-link-color);
-    outline-offset: 3px;
+  a:focus-visible {
+    outline: 2px solid var(--global-link-color);
+    outline-offset: 4px;
   }
 }
 
 .book-page__description {
-  max-width: 38rem;
-  margin: 1.75rem auto 0;
+  grid-area: description;
 
   p {
     line-height: 1.65;
@@ -87,6 +81,42 @@
 
   > :last-child {
     margin-bottom: 0;
+  }
+}
+
+.book-page .book-page__availability {
+  grid-area: availability;
+  margin: 0;
+  font-style: italic;
+  line-height: 1.65;
+}
+
+/* Like the reference layout, text wraps around the cover and then resumes
+   the full article width. Only float when the article itself is wide enough. */
+@container book-page (min-width: 640px) {
+  .book-page__layout {
+    display: flow-root;
+  }
+
+  .book-page__cover {
+    float: left;
+    margin: 0 1.25rem 1rem 0;
+  }
+
+  .book-page .book-page__publication {
+    margin-bottom: 1.25rem;
+  }
+
+  .book-page__description > p:first-child {
+    display: flow-root;
+  }
+
+  .book-page__description > p + p {
+    clear: left;
+  }
+
+  .book-page .book-page__availability {
+    margin-top: 1.3em;
   }
 }
 
